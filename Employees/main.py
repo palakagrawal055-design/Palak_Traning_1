@@ -23,7 +23,7 @@ def get_db():
 
 @app.get("/")
 async def home():
-    return {"message": "Welcome to Students API"}
+    return {"message": "Welcome to Students API running on FastAPI"}
 
 
 @app.get("/students")
